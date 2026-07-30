@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON TYPE MATCHER</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--homepage-->
+    <div id="homepage-view" class="container">
+        <div class="start-graphic"></div>
+    <div class="welcome-header">
+        <h1>WELCOME TO POKÉDEX</h1>
+        <p>Small quiz for Pokémon Type</p>
+    </div>
+    
+    <div class="start-graphic">
+        <img src="pokemonball2.webp" alt="Pokéball Quiz">
+    </div>
+
+    <button id="start-game-btn" class="start-btn">LET'S START THE GAME</button>
+</div>
+
+<!--game page-->
+<div id="quiz-view" class="container" style="display: none;">
+    <div class = "game-container" >
+        <h1> What's My Type?</h1>
+        <div class ="score-card "> SCORE : <span id = "score"> 0 </span></div>
+
+        <div class=" pokemon-card">
+           <img id="pokemon-img" src="" alt="Guess the Pokémon">
+            <div id="pokemon-name"> CHARIZARD </div>
+
+            <div id="options-container" class="options-grid">
+                
+            </div>
+
+            <p id = "feedback"></p>
+            <button id="next-btn" style="display:none ;"> Next Pokemon </button>
+
+    </div>
+    </div>
+
+<script src="script.js"></script>
+
+    
+</body>
+</html>
